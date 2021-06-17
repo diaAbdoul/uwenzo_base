@@ -1,0 +1,17 @@
+/home/abdoul/Blockchain/blockchain3/clientTest/obj/Debug/netcoreapp3.1/clientTest.csprojAssemblyReference.cache
+/home/abdoul/Blockchain/blockchain3/clientTest/obj/Debug/netcoreapp3.1/clientTest.AssemblyInfoInputs.cache
+/home/abdoul/Blockchain/blockchain3/clientTest/obj/Debug/netcoreapp3.1/clientTest.AssemblyInfo.cs
+/home/abdoul/Blockchain/blockchain3/clientTest/obj/Debug/netcoreapp3.1/clientTest.csproj.CoreCompileInputs.cache
+/home/abdoul/Blockchain/blockchain3/clientTest/bin/Debug/netcoreapp3.1/clientTest
+/home/abdoul/Blockchain/blockchain3/clientTest/bin/Debug/netcoreapp3.1/clientTest.deps.json
+/home/abdoul/Blockchain/blockchain3/clientTest/bin/Debug/netcoreapp3.1/clientTest.runtimeconfig.json
+/home/abdoul/Blockchain/blockchain3/clientTest/bin/Debug/netcoreapp3.1/clientTest.runtimeconfig.dev.json
+/home/abdoul/Blockchain/blockchain3/clientTest/bin/Debug/netcoreapp3.1/clientTest.dll
+/home/abdoul/Blockchain/blockchain3/clientTest/bin/Debug/netcoreapp3.1/clientTest.pdb
+/home/abdoul/Blockchain/blockchain3/clientTest/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/abdoul/Blockchain/blockchain3/clientTest/bin/Debug/netcoreapp3.1/core.dll
+/home/abdoul/Blockchain/blockchain3/clientTest/bin/Debug/netcoreapp3.1/core.pdb
+/home/abdoul/Blockchain/blockchain3/clientTest/obj/Debug/netcoreapp3.1/clientTest.csproj.CopyComplete
+/home/abdoul/Blockchain/blockchain3/clientTest/obj/Debug/netcoreapp3.1/clientTest.dll
+/home/abdoul/Blockchain/blockchain3/clientTest/obj/Debug/netcoreapp3.1/clientTest.pdb
+/home/abdoul/Blockchain/blockchain3/clientTest/obj/Debug/netcoreapp3.1/clientTest.genruntimeconfig.cache
