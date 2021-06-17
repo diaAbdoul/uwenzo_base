@@ -22,7 +22,7 @@ namespace core.Models
         
             public Block CreateGenesisBlock()  
             {  
-                return new Block(DateTime.Now, null, "{}");  
+                return new Block(DateTime.Now, null, null);  
             }  
         
             public void AddGenesisBlock()  
@@ -60,7 +60,7 @@ namespace core.Models
                     Block currentBlock = Chain[i];  
                     Block previousBlock = Chain[i - 1];  
             
-                    if (currentBlock.Hash != currentBlock.CalculateHash())  
+                    if (currentBlock.Hash != currentBlock.CalculateHash(2))  
                     {  
                         return false;  
                     }  

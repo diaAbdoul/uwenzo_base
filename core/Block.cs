@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System;
 using System.Security.Cryptography;
 using System.Text;
+using Newtonsoft.Json;
 
 namespace  core.Models {
     public class Block {
@@ -12,18 +13,18 @@ namespace  core.Models {
         public IList<core.Models.Transaction> Transactions { get; set; } 
         public int Nonce { get; set; }
 
-        public Block (DateTime timeStamp, string previousHash, string data) {
+        public Block (DateTime timeStamp, string previousHash, List<core.Models.Transaction> transactions) {
             Index = 0;
             TimeStamp = timeStamp;
             PreviousHash = previousHash;
-            Data = data;
-            Hash = CalculateHash ();
+            Transactions = transactions;
+            Hash = CalculateHash (2);
         }
 
-        public string CalculateHash () {
+        public string CalculateHash (int difficulty) {
             SHA256 sha256 = SHA256.Create();  
   
-            byte[] inputBytes = Encoding.ASCII.GetBytes($"{TimeStamp}-{PreviousHash ?? ""}-{JsonSerializer.Serialize(Transactions)}-{Nonce}");  
+            byte[] inputBytes = Encoding.ASCII.GetBytes($"{TimeStamp}-{PreviousHash ?? ""}-{JsonConvert.SerializeObject(Transactions)}-{Nonce}-{difficulty}");  
             byte[] outputBytes = sha256.ComputeHash(inputBytes);  
         
             return Convert.ToBase64String(outputBytes); 
@@ -37,7 +38,7 @@ namespace  core.Models {
                 Console.WriteLine (this.Nonce);
 
                 this.Nonce++;
-                this.Hash = this.CalculateHash ();
+                this.Hash = this.CalculateHash (difficulty);
 
                 Console.WriteLine (this.Hash);
             }

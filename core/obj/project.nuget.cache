@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nZaH+iCuRZazbGZcBslNztIjyi5j1UF2w04izL1sRqX0dO88Z52I0XB69WjWip7wka6gPfeDIXvhmMOL7kpMBw==",
+  "dgSpecHash": "pqFpoOt8ZVbNdJi/1IZ2ayygjloO4CEoon5BClxPRNtaABRQhmoqMbxdADs++hG/IywmkwJlrQSLzKKewcB4zA==",
   "success": true,
   "projectFilePath": "/home/abdoul/Blockchain/blockchain3/core/core.csproj",
   "expectedPackageFiles": [
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/abdoul/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
